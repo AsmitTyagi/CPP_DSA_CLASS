@@ -17,8 +17,16 @@ public:
 Employe(int id ){
     EmpId=id;
     cout<<"employe id is "<<id<<endl;
- 
 }
+
+// copy const
+Employe (Employe &e1 ){
+    id = this->EmpId;
+
+}
+
+
+
 void display(){
     cout<<"employ id is :"<<EmpId;
 
