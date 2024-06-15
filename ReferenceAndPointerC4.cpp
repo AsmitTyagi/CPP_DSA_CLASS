@@ -19,6 +19,11 @@ int main(){
     cout<<ptr2<<endl;//it will sow the memory add of ptr1 
 
     cout<<ptr3<<endl; // showing null pointer
+    return 0;
+
+
+}
+
 
     //pointer which are earlieer assingned and then then variable are  delleted then thoses pointer will give garbage value and thesepointers are called dazzling pointer thsi result in memory leak
     
@@ -36,8 +41,4 @@ A void pointer is a pointer that can point to any type of data. Void pointers ar
 
     
 
-    return 0;
-
-
-}
-
+    
