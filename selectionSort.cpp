@@ -1,0 +1,1 @@
+// select andd swap with min no the min value comes on the first index
