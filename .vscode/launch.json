@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asmit/Desktop/clg/GIT DATA/CPADSA_CIPHER_SCHOOL",
-      "program": "c:/Users/asmit/Desktop/clg/GIT DATA/CPADSA_CIPHER_SCHOOL/build/Debug/outDebug",
+      "cwd": "c:/Users/asmit/Desktop/clg/GIT DATA/CPADSA_CIPHER_SCHOOL/.git",
+      "program": "c:/Users/asmit/Desktop/clg/GIT DATA/CPADSA_CIPHER_SCHOOL/.git/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
