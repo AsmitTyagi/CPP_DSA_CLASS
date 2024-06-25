@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void selection_sort(int arr[], int n)
+void selection_sort(int arr[], int n)//we will select the min element and swap
 {
     for (int i = 0; i <= n - 2; i++)
     {
@@ -17,7 +17,6 @@ void selection_sort(int arr[], int n)
         arr[i] = temp;
     }
 }
-
 
 
 void bubble_sort(int arr[], int n ){
