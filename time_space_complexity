@@ -10,8 +10,3 @@
 // O(n^2) quadratic time complexity                 |
 // O(2^n) exponential time complexity          (more complex)
 
-#include<iostream>
-using namespace std;
- int main(){
-
- }
