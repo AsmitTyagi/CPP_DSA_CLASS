@@ -4,32 +4,42 @@
 
 #include<iostream>
 using namespace std;
+int binarySearch(int arr[], int size, int target ){
+    int start=0;
+    int end = size-1;
+    int mid= start/2 +(start+end)/2;
+    while (start<end){
+        int element =arr[mid];
+        if (element==target)
+{
+    return mid;
 
-bool binarySearch(int arr[], int size, int key) {
-    int start = 0;
-    int end = size - 1;
+}
+else if(target< element ){
+     end =mid -1;
 
-    while (start <= end) {
-        int mid = start + (end - start) / 2; // Corrected mid calculation to avoid overflow
+}
+else{
+    start=mid+1;
 
-        if (arr[mid] == key) {
-            return true;
-        }
-        if (key > arr[mid]) {
-            // Go to the right part
-            start = mid + 1;
-        } else {
-            // Go to the left part
-            end = mid - 1;
-        }
+}
+mid = start/2+ (end- start/2);
+
     }
-    return false;
-}
+    return -1;
 
-int main() {
-    int arr[] = {2, 3, 4, 5, 6, 7};
-    bool result = binarySearch(arr, 6, 4);
-    cout << (result ? "Key found" : "Key not found") << endl;
-    return 0;
 }
-// time complexity = (log n)
+int main(){
+    int arr[]={1,2,3,4,5,6,7,8};
+    int size= 9;
+    int target = 9;
+  int indexoftarget= binarySearch(arr, size, target);
+  if (indexoftarget==-1){
+    cout<<"element not found"<<endl;
+  }
+  else{
+    cout<<"element found at index "<<indexoftarget<<endl;
+
+
+}
+}
