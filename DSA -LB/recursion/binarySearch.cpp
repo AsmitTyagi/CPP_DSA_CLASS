@@ -19,7 +19,7 @@ int binarySearch(int key, int start, int end, vector<int>&arr)
     }
     else
     {
-        return binarySearch(key, end, mid +1, arr);
+        return binarySearch(key,  mid +1,end, arr);
     }
 }
 int main()
